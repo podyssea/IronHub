@@ -1,2 +1,2 @@
 # IronHub
-a simple workout tracking app
+A simple workout tracking app
