@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import Styles from './Styles';
-import WorkoutPlansScreen from './WorkoutPlansScreen';
 
 export default function HomeScreen({ navigation }) {
   const handlePress = () => {
@@ -10,13 +9,14 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={Styles.container}>
-    <TouchableOpacity
-        style={Styles.button}
-        onPress={() => navigation.navigate('WorkoutPlans')}
-    >
-        <Text style={Styles.buttonText}>Get Started</Text>
-    </TouchableOpacity>
+      <Text style={Styles.title}>IonHUB</Text>
+      <Text style={Styles.subtitle}>Welcome</Text>
+      <View style={Styles.buttonContainer}>
+        <TouchableOpacity style={Styles.button} onPress={handlePress}>
+          <Text style={Styles.buttonText}>START</Text>
+        </TouchableOpacity>
+      </View>
     </View>
-
   );
 }
+

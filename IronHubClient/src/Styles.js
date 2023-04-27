@@ -13,7 +13,21 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     marginBottom: 30,
   },
+  subtitle: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    fontFamily: 'Arial Rounded MT Bold',
+    textAlign: 'center',
+    marginBottom: 250,
+  },
+  title: {
+    fontFamily: 'Arial Rounded MT Bold',
+    fontSize: 50,
+    fontWeight: 'bold',
+    textAlign: 'center'
+  },
   button: {
+    fontFamily: 'Arial Rounded MT Bold',
     backgroundColor: '#FFFFFF',
     borderRadius: 5,
     padding: 10,
@@ -22,6 +36,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   buttonText: {
+    fontFamily: 'Arial Rounded MT Bold',
     color: '#333333',
     fontSize: 20,
   },
