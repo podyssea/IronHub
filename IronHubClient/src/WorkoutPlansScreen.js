@@ -15,9 +15,9 @@ export default function WorkoutPlansScreen({ navigation }) {
           onPress={() => navigation.navigate('DailyRoutine', { plan })}
         >
           <Text style={Styles.buttonText}>{plan}</Text>
-        </TouchableOpacity>
+  </TouchableOpacity>
       ))}
-    </View>
+</View>
   );
 }
 

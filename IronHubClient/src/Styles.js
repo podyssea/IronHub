@@ -29,16 +29,46 @@ const styles = StyleSheet.create({
   button: {
     fontFamily: 'Arial Rounded MT Bold',
     backgroundColor: '#FFFFFF',
-    borderRadius: 5,
+    borderRadius: 10,
     padding: 10,
     marginVertical: 10,
     width: '100%',
     alignItems: 'center',
+    width: '70%'
+  },
+  cancelButton: {
+    fontFamily: 'Arial Rounded MT Bold',
+    backgroundColor: '#dc143c',
+    borderRadius: 10,
+    padding: 10,
+    marginVertical: 10,
+    width: '100%',
+    alignItems: 'center',
+    width: '70%'
+  },
+  tableHeader: {
+    backgroundColor: '#32cd32',
+  },
+  doneButton: {
+    fontFamily: 'Arial Rounded MT Bold',
+    backgroundColor: '#32cd32',
+    borderRadius: 10,
+    padding: 10,
+    marginVertical: 10,
+    width: '100%',
+    alignItems: 'center',
+    width: '70%'
   },
   buttonText: {
     fontFamily: 'Arial Rounded MT Bold',
     color: '#333333',
     fontSize: 20,
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 20,
+    marginHorizontal: 80
   },
   workoutPlansContainer: {
     flex: 1,
@@ -111,19 +141,7 @@ const styles = StyleSheet.create({
     padding: 5,
     width: 70,
     textAlign: 'center',
-  },
-  doneButton: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 5,
-    padding: 10,
-    marginTop: 20,
-    width: '100%',
-    alignItems: 'center',
-  },
-  doneButtonText: {
-    color: '#333333',
-    fontSize: 18,
-  },
+  }
 });
 
 export default styles;
